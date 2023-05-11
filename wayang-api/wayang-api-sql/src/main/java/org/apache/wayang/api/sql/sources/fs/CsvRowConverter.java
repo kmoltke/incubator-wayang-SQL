@@ -50,7 +50,7 @@ public class CsvRowConverter {
         TIME_FORMAT_TIME = FastDateFormat.getInstance("HH:mm:ss", gmt);
         TIME_FORMAT_TIMESTAMP = FastDateFormat.getInstance("yyyy-MM-dd HH:mm:ss", gmt);
 
-        parser = new CSVParser();
+        parser = new CSVParser('|');
     }
 
 
